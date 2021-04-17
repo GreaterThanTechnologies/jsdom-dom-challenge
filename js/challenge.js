@@ -76,3 +76,4 @@ document.getElementById("submit").addEventListener("click", function(event) {
   commentsList.appendChild(p);
   document.querySelector("input#comment-input").value = ""
 })
+
