@@ -53,7 +53,6 @@ document.getElementById("pause").addEventListener("click", function() {
     document.getElementById("plus").disabled = true;
     document.getElementById("heart").disabled = true;
     document.getElementById("submit").disabled = true;
-    // document.getElementById("restart").disabled = true;
   } else {
     interval = setInterval( increment, 1000);
     document.querySelector("#pause").innerText = "pause"
@@ -61,7 +60,6 @@ document.getElementById("pause").addEventListener("click", function() {
     document.getElementById("plus").disabled = false;
     document.getElementById("heart").disabled = false;
     document.getElementById("submit").disabled = false;
-    // document.getElementById("restart").disabled = false;
   }
 });
 
